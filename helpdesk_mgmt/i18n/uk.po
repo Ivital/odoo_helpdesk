@@ -1,0 +1,1351 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * helpdesk_mgmt
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 12:22+0000\n"
+"PO-Revision-Date: 2026-09-30 00:00+0000\n"
+"Last-Translator: \n"
+"Language: uk\n"
+"Language-Team: Ukrainian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#. module: helpdesk_mgmt
+msgid "<em class=\"font-weight-normal text-muted\">Tickets in category:</em>"
+msgstr "<em class=\"font-weight-normal text-muted\">Заявки в категорії:</em>"
+
+#. module: helpdesk_mgmt
+msgid "<em class=\"font-weight-normal text-muted\">Tickets in stage:</em>"
+msgstr "<em class=\"font-weight-normal text-muted\">Заявки на етапі:</em>"
+
+#. module: helpdesk_mgmt
+msgid "<i class=\"fa fa-plus\"/> New"
+msgstr "<i class=\"fa fa-plus\"/> Новий"
+
+#. module: helpdesk_mgmt
+msgid ""
+"<p>Hello <t t-out=\"object.partner_name or object.partner_id.name\"/>,</p>\n"
+"                <p>\n"
+"                    The ticket <t t-out=\"object.display_name\"/>\n"
+"                    stage has changed to <t "
+"t-out=\"object.stage_id.name\"/>.\n"
+"                </p>\n"
+"            "
+msgstr ""
+"<p>Вітаємо, <t t-out=\"object.partner_name or "
+"object.partner_id.name\"/>!</p>\n"
+"                <p>\n"
+"                    Етап заявки <t t-out=\"object.display_name\"/>\n"
+"                    змінено на <t t-out=\"object.stage_id.name\"/>.\n"
+"                </p>\n"
+"            "
+
+#. module: helpdesk_mgmt
+msgid ""
+"<p>Hello <t t-out=\"object.partner_name or object.partner_id.name\"/>,</p>\n"
+"                <p>The ticket <t t-out=\"object.display_name\"/> has been "
+"closed.</p>\n"
+"            "
+msgstr ""
+"<p>Вітаємо, <t t-out=\"object.partner_name or "
+"object.partner_id.name\"/>!</p>\n"
+"                <p>Заявку <t t-out=\"object.display_name\"/> закрито.</p>\n"
+"            "
+
+#. module: helpdesk_mgmt
+msgid ""
+"<p>Hello <t t-out=\"object.partner_name or object.partner_id.name\"/>,</p>\n"
+"                <p>The ticket <t t-out=\"object.number\"/> has been assigned"
+" to <t t-out=\"object.user_id.name\"/>.</p>\n"
+"            "
+msgstr ""
+"<p>Вітаємо, <t t-out=\"object.partner_name or "
+"object.partner_id.name\"/>!</p>\n"
+"                <p>Заявку <t t-out=\"object.number\"/> призначено "
+"користувачу <t t-out=\"object.user_id.name\"/>.</p>\n"
+"            "
+
+#. module: helpdesk_mgmt
+msgid "<small class=\"text-end\">Stage:</small>"
+msgstr "<small class=\"text-end\">Етап:</small>"
+
+#. module: helpdesk_mgmt
+msgid "<small class=\"text-muted\">Assignee</small>"
+msgstr "<small class=\"text-muted\">Виконавець</small>"
+
+#. module: helpdesk_mgmt
+msgid "<small class=\"text-muted\">Customer</small>"
+msgstr "<small class=\"text-muted\">Клієнт</small>"
+
+#. module: helpdesk_mgmt
+msgid "<span class=\"fw-bolder\">View</span>"
+msgstr "<span class=\"fw-bolder\">Переглянути</span>"
+
+#. module: helpdesk_mgmt
+msgid "<strong>Category:</strong>"
+msgstr "<strong>Категорія:</strong>"
+
+#. module: helpdesk_mgmt
+msgid "<strong>Closed Date:</strong>"
+msgstr "<strong>Дата закриття:</strong>"
+
+#. module: helpdesk_mgmt
+msgid "<strong>Create Date:</strong>"
+msgstr "<strong>Дата створення:</strong>"
+
+#. module: helpdesk_mgmt
+msgid "<strong>Last Stage Update:</strong>"
+msgstr "<strong>Останнє оновлення етапу:</strong>"
+
+#. module: helpdesk_mgmt
+msgid ""
+"A Python dictionary that will be evaluated to provide default values when "
+"creating new records for this alias."
+msgstr ""
+"Словник Python, який буде обчислено для надання значень за замовчуванням під"
+" час створення нових записів для цього псевдоніма."
+
+#. module: helpdesk_mgmt
+msgid "Accept Emails From"
+msgstr "Приймати листи від"
+
+#. module: helpdesk_mgmt
+msgid "Access warning"
+msgstr "Попередження про доступ"
+
+#. module: helpdesk_mgmt
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: helpdesk_mgmt
+msgid "Active"
+msgstr "Активний"
+
+#. module: helpdesk_mgmt
+msgid "Active tickets"
+msgstr "Активні заявки"
+
+#. module: helpdesk_mgmt
+msgid "Activities"
+msgstr "Дії"
+
+#. module: helpdesk_mgmt
+msgid "Activity Exception Decoration"
+msgstr "Оформлення виняткової дії"
+
+#. module: helpdesk_mgmt
+msgid "Activity State"
+msgstr "Стан дії"
+
+#. module: helpdesk_mgmt
+msgid "Activity Type Icon"
+msgstr "Іконка типу дії"
+
+#. module: helpdesk_mgmt
+msgid "Add Attachments"
+msgstr "Додати вкладення"
+
+#. module: helpdesk_mgmt
+msgid "Additional fields"
+msgstr "Додаткові поля"
+
+#. module: helpdesk_mgmt
+msgid "Alias Contact Security"
+msgstr "Безпека контакту псевдоніма"
+
+#. module: helpdesk_mgmt
+msgid "Alias Domain"
+msgstr "Домен псевдоніма"
+
+#. module: helpdesk_mgmt
+msgid "Alias Domain Name"
+msgstr "Назва домену псевдоніма"
+
+#. module: helpdesk_mgmt
+msgid "Alias Email"
+msgstr "Псевдонім ел. пошти"
+
+#. module: helpdesk_mgmt
+msgid "Alias Name"
+msgstr "Назва псевдоніма"
+
+#. module: helpdesk_mgmt
+msgid "Alias Status"
+msgstr "Статус псевдоніма"
+
+#. module: helpdesk_mgmt
+msgid "Alias status assessed on the last message received."
+msgstr "Статус псевдоніма визначається за останнім отриманим повідомленням."
+
+#. module: helpdesk_mgmt
+msgid "Aliased Model"
+msgstr "Модель псевдоніма"
+
+#. module: helpdesk_mgmt
+#. odoo-python
+msgid "All"
+msgstr "Усі"
+
+#. module: helpdesk_mgmt
+msgid "All Tickets"
+msgstr "Усі заявки"
+
+#. module: helpdesk_mgmt
+msgid "Allow to select this team when creating a new ticket in the portal."
+msgstr "Дозволити вибирати цю команду під час створення нової заявки на порталі."
+
+#. module: helpdesk_mgmt
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: helpdesk_mgmt
+msgid "Assign to me"
+msgstr "Призначити мені"
+
+#. module: helpdesk_mgmt
+msgid "Assigned Date"
+msgstr "Дата призначення"
+
+#. module: helpdesk_mgmt
+msgid "Assigned user"
+msgstr "Призначений користувач"
+
+#. module: helpdesk_mgmt
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: helpdesk_mgmt
+msgid "Attachments"
+msgstr "Вкладення"
+
+#. module: helpdesk_mgmt
+msgid "Auto assign User"
+msgstr "Автоматично призначати користувача"
+
+#. module: helpdesk_mgmt
+msgid "Auto assign tickets"
+msgstr "Автоматично призначати заявки"
+
+#. module: helpdesk_mgmt
+msgid "Avatar"
+msgstr "Аватар"
+
+#. module: helpdesk_mgmt
+msgid "Awaiting"
+msgstr "Очікує"
+
+#. module: helpdesk_mgmt
+msgid "Blocked"
+msgstr "Заблоковано"
+
+#. module: helpdesk_mgmt
+msgid "By"
+msgstr "За"
+
+#. module: helpdesk_mgmt
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: helpdesk_mgmt
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#. module: helpdesk_mgmt
+msgid "Categories"
+msgstr "Категорії"
+
+#. module: helpdesk_mgmt
+#. odoo-python
+msgid "Category"
+msgstr "Категорія"
+
+#. module: helpdesk_mgmt
+msgid "Channel"
+msgstr "Канал"
+
+#. module: helpdesk_mgmt
+msgid ""
+"Channel indicates where the source of a ticketcomes from (it could be a "
+"phone call, an email...)"
+msgstr ""
+"Канал указує джерело заявки (це може бути телефонний дзвінок, електронний "
+"лист тощо)"
+
+#. module: helpdesk_mgmt
+msgid "Channels"
+msgstr "Канали"
+
+#. module: helpdesk_mgmt
+msgid "Child Categories"
+msgstr "Дочірні категорії"
+
+#. module: helpdesk_mgmt
+msgid "Choose or configure a custom domain"
+msgstr "Виберіть або налаштуйте власний домен"
+
+#. module: helpdesk_mgmt
+msgid "Choose which fields are required in the portal form"
+msgstr "Виберіть поля, обов'язкові у формі порталу"
+
+#. module: helpdesk_mgmt
+msgid "Close Date"
+msgstr "Дата закриття"
+
+#. module: helpdesk_mgmt
+msgid "Close From Portal"
+msgstr "Закривати з порталу"
+
+#. module: helpdesk_mgmt
+msgid "Closed"
+msgstr "Закрито"
+
+#. module: helpdesk_mgmt
+msgid "Closed Date"
+msgstr "Дата закриття"
+
+#. module: helpdesk_mgmt
+msgid "Color Index"
+msgstr "Індекс кольору"
+
+#. module: helpdesk_mgmt
+msgid "Commercial Entity"
+msgstr "Комерційна організація"
+
+#. module: helpdesk_mgmt
+msgid "Commercial Partner"
+msgstr "Комерційний контрагент"
+
+#. module: helpdesk_mgmt
+msgid "Communication history"
+msgstr "Історія комунікації"
+
+#. module: helpdesk_mgmt
+msgid "Companies"
+msgstr "Компанії"
+
+#. module: helpdesk_mgmt
+msgid "Company"
+msgstr "Компанія"
+
+#. module: helpdesk_mgmt
+msgid "Complete Name"
+msgstr "Повна назва"
+
+#. module: helpdesk_mgmt
+msgid "Config Settings"
+msgstr "Налаштування конфігурації"
+
+#. module: helpdesk_mgmt
+msgid "Configuration"
+msgstr "Конфігурація"
+
+#. module: helpdesk_mgmt
+msgid "Consultants"
+msgstr "Консультанти"
+
+#. module: helpdesk_mgmt
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: helpdesk_mgmt
+msgid "Controls if the tickets created are automatically assigned to the user."
+msgstr "Визначає, чи створені заявки автоматично призначаються користувачу."
+
+#. module: helpdesk_mgmt
+msgid "Create Date"
+msgstr "Дата створення"
+
+#. module: helpdesk_mgmt
+msgid "Created by"
+msgstr "Створив"
+
+#. module: helpdesk_mgmt
+msgid "Created on"
+msgstr "Дата створення"
+
+#. module: helpdesk_mgmt
+msgid "Current stage of the ticket"
+msgstr "Поточний етап заявки"
+
+#. module: helpdesk_mgmt
+msgid "Current stage of this ticket"
+msgstr "Поточний етап цієї заявки"
+
+#. module: helpdesk_mgmt
+msgid "Custom Bounced Message"
+msgstr "Власне повідомлення про недоставку"
+
+#. module: helpdesk_mgmt
+#. odoo-python
+msgid "Customer"
+msgstr "Клієнт"
+
+#. module: helpdesk_mgmt
+#. odoo-python
+msgid "Customer Email"
+msgstr "Ел. пошта клієнта"
+
+#. module: helpdesk_mgmt
+msgid "Customer Portal URL"
+msgstr "URL порталу клієнта"
+
+#. module: helpdesk_mgmt
+msgid "Dashboard"
+msgstr "Панель керування"
+
+#. module: helpdesk_mgmt
+msgid "Default"
+msgstr "За замовчуванням"
+
+#. module: helpdesk_mgmt
+msgid "Default Values"
+msgstr "Значення за замовчуванням"
+
+#. module: helpdesk_mgmt
+msgid "Delete"
+msgstr "Видалити"
+
+#. module: helpdesk_mgmt
+msgid "Description"
+msgstr "Опис"
+
+#. module: helpdesk_mgmt
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: helpdesk_mgmt
+msgid ""
+"Display button in portal ticket form to allow closing ticket with this stage"
+" as target."
+msgstr ""
+"Відображати кнопку у формі заявки порталу, щоб дозволити закриття заявки з "
+"цим етапом як цільовим."
+
+#. module: helpdesk_mgmt
+msgid "Displayed in portal"
+msgstr "Відображається на порталі"
+
+#. module: helpdesk_mgmt
+msgid "Done"
+msgstr "Виконано"
+
+#. module: helpdesk_mgmt
+msgid "Duplicate"
+msgstr "Дублікат"
+
+#. module: helpdesk_mgmt
+msgid "Duplicate Count"
+msgstr "Кількість дублікатів"
+
+#. module: helpdesk_mgmt
+msgid "Duplicate Of"
+msgstr "Дублікат запису"
+
+#. module: helpdesk_mgmt
+msgid "Duplicate of"
+msgstr "Дублікат запису"
+
+#. module: helpdesk_mgmt
+msgid "Duplicate stage"
+msgstr "Дублювати етап"
+
+#. module: helpdesk_mgmt
+msgid "Duplicate tickets"
+msgstr "Дублікати заявок"
+
+#. module: helpdesk_mgmt
+msgid "Duplicate tracking"
+msgstr "Відстеження дублікатів"
+
+#. module: helpdesk_mgmt
+msgid "Duplicates"
+msgstr "Дублікати"
+
+#. module: helpdesk_mgmt
+msgid "Edit"
+msgstr "Редагувати"
+
+#. module: helpdesk_mgmt
+msgid "Email"
+msgstr "Ел. пошта"
+
+#. module: helpdesk_mgmt
+msgid "Email Alias"
+msgstr "Псевдонім ел. пошти"
+
+#. module: helpdesk_mgmt
+msgid "Email Template"
+msgstr "Шаблон ел. листа"
+
+#. module: helpdesk_mgmt
+msgid "Email cc"
+msgstr "Копія ел. пошти"
+
+#. module: helpdesk_mgmt
+msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
+msgstr "Домен ел. пошти, напр. 'example.com' у 'odoo@example.com'"
+
+#. module: helpdesk_mgmt
+msgid "Enable duplicate ticket tracking."
+msgstr "Увімкнути відстеження дублікатів заявок."
+
+#. module: helpdesk_mgmt
+msgid "Enable duplicate tracking"
+msgstr "Увімкнути відстеження дублікатів"
+
+#. module: helpdesk_mgmt
+msgid "Folded in Kanban"
+msgstr "Згорнуто в Kanban"
+
+#. module: helpdesk_mgmt
+msgid "Follow and comment your helpdesk tickets"
+msgstr "Стежте за заявками служби підтримки та коментуйте їх"
+
+#. module: helpdesk_mgmt
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: helpdesk_mgmt
+msgid "Followers (Partners)"
+msgstr "Підписники (контрагенти)"
+
+#. module: helpdesk_mgmt
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Іконка Font Awesome, напр. fa-tasks"
+
+#. module: helpdesk_mgmt
+msgid "Functional"
+msgstr "Функціональний"
+
+#. module: helpdesk_mgmt
+msgid "Future Activities"
+msgstr "Майбутні дії"
+
+#. module: helpdesk_mgmt
+msgid "Gives the sequence order when displaying a list of tickets."
+msgstr "Визначає порядок відображення заявок у списку."
+
+#. module: helpdesk_mgmt
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: helpdesk_mgmt
+msgid "HTTP Routing"
+msgstr "HTTP-маршрутизація"
+
+#. module: helpdesk_mgmt
+msgid "Hard"
+msgstr "Складний"
+
+#. module: helpdesk_mgmt
+msgid "Hardware"
+msgstr "Апаратне забезпечення"
+
+#. module: helpdesk_mgmt
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: helpdesk_mgmt
+msgid "Helpdesk"
+msgstr "Служба підтримки"
+
+#. module: helpdesk_mgmt
+msgid "Helpdesk Category Search"
+msgstr "Пошук категорії служби підтримки"
+
+#. module: helpdesk_mgmt
+msgid "Helpdesk Changed Stage notification Email"
+msgstr "Лист-сповіщення про зміну етапу заявки служби підтримки"
+
+#. module: helpdesk_mgmt
+msgid "Helpdesk Closed Ticket Notification Email"
+msgstr "Лист-сповіщення про закриття заявки служби підтримки"
+
+#. module: helpdesk_mgmt
+msgid "Helpdesk Manager"
+msgstr "Керівник служби підтримки"
+
+#. module: helpdesk_mgmt
+msgid "Helpdesk Team"
+msgstr "Команда служби підтримки"
+
+#. module: helpdesk_mgmt
+msgid "Helpdesk Team Search"
+msgstr "Пошук команди служби підтримки"
+
+#. module: helpdesk_mgmt
+msgid "Helpdesk Team name..."
+msgstr "Назва команди служби підтримки..."
+
+#. module: helpdesk_mgmt
+msgid "Helpdesk Teams"
+msgstr "Команди служби підтримки"
+
+#. module: helpdesk_mgmt
+msgid "Helpdesk Ticket"
+msgstr "Заявка служби підтримки"
+
+#. module: helpdesk_mgmt
+msgid "Helpdesk Ticket Category"
+msgstr "Категорія заявки служби підтримки"
+
+#. module: helpdesk_mgmt
+msgid "Helpdesk Ticket Channel"
+msgstr "Канал заявки служби підтримки"
+
+#. module: helpdesk_mgmt
+msgid "Helpdesk Ticket Created"
+msgstr "Заявку служби підтримки створено"
+
+#. module: helpdesk_mgmt
+msgid "Helpdesk Ticket Stage"
+msgstr "Етап заявки служби підтримки"
+
+#. module: helpdesk_mgmt
+msgid "Helpdesk Ticket Tag"
+msgstr "Мітка заявки служби підтримки"
+
+#. module: helpdesk_mgmt
+msgid "Helpdesk Ticket Team"
+msgstr "Команда служби підтримки"
+
+#. module: helpdesk_mgmt
+msgid "Helps you handle your helpdesk security."
+msgstr "Допомагає керувати безпекою служби підтримки."
+
+#. module: helpdesk_mgmt
+msgid "High"
+msgstr "Високий"
+
+#. module: helpdesk_mgmt
+msgid "High Priority"
+msgstr "Високий пріоритет"
+
+#. module: helpdesk_mgmt
+msgid "ID"
+msgstr "ID"
+
+#. module: helpdesk_mgmt
+msgid ""
+"ID of the parent record holding the alias (example: project holding the task"
+" creation alias)"
+msgstr ""
+"ID батьківського запису, що містить псевдонім (наприклад, проєкт, який "
+"містить псевдонім створення завдання)"
+
+#. module: helpdesk_mgmt
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: helpdesk_mgmt
+msgid "Icon to indicate an exception activity."
+msgstr "Іконка для позначення виняткової дії."
+
+#. module: helpdesk_mgmt
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: helpdesk_mgmt
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: helpdesk_mgmt
+msgid ""
+"If set an email will be sent to the customer when the ticketreaches this "
+"step."
+msgstr "Якщо задано, клієнту буде надіслано лист, коли заявка досягне цього етапу."
+
+#. module: helpdesk_mgmt
+msgid ""
+"If set, this content will automatically be sent out to unauthorized users "
+"instead of the default message."
+msgstr ""
+"Якщо задано, цей вміст автоматично надсилатиметься неавторизованим "
+"користувачам замість стандартного повідомлення."
+
+#. module: helpdesk_mgmt
+msgid "In Progress"
+msgstr "У процесі"
+
+#. module: helpdesk_mgmt
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: helpdesk_mgmt
+msgid "JSON that maps ids from a many2one field to seconds spent"
+msgstr "JSON, що зіставляє ID з поля many2one із витраченими секундами"
+
+#. module: helpdesk_mgmt
+msgid "Kanban State"
+msgstr "Стан Kanban"
+
+#. module: helpdesk_mgmt
+msgid "Laptops"
+msgstr "Ноутбуки"
+
+#. module: helpdesk_mgmt
+#. odoo-python
+msgid "Last Stage Update"
+msgstr "Останнє оновлення етапу"
+
+#. module: helpdesk_mgmt
+msgid "Last Updated by"
+msgstr "Востаннє оновив"
+
+#. module: helpdesk_mgmt
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: helpdesk_mgmt
+msgid "Last Week"
+msgstr "Минулий тиждень"
+
+#. module: helpdesk_mgmt
+msgid "Late Activities"
+msgstr "Прострочені дії"
+
+#. module: helpdesk_mgmt
+msgid "Local-part based incoming detection"
+msgstr "Виявлення вхідних листів за локальною частиною адреси"
+
+#. module: helpdesk_mgmt
+msgid "Localization team"
+msgstr "Команда локалізації"
+
+#. module: helpdesk_mgmt
+msgid "Low"
+msgstr "Низький"
+
+#. module: helpdesk_mgmt
+msgid "Mark as duplicate"
+msgstr "Позначити як дублікат"
+
+#. module: helpdesk_mgmt
+msgid "Media Attachments"
+msgstr "Медіавкладення"
+
+#. module: helpdesk_mgmt
+msgid "Medium"
+msgstr "Середній"
+
+#. module: helpdesk_mgmt
+msgid "Members"
+msgstr "Учасники"
+
+#. module: helpdesk_mgmt
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: helpdesk_mgmt
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: helpdesk_mgmt
+msgid "Move duplicate tickets to this stage"
+msgstr "Переміщувати дублікати заявок на цей етап"
+
+#. module: helpdesk_mgmt
+msgid "My Activities"
+msgstr "Мої дії"
+
+#. module: helpdesk_mgmt
+msgid "My Activity Deadline"
+msgstr "Кінцевий термін моєї дії"
+
+#. module: helpdesk_mgmt
+msgid "My Followed Tickets"
+msgstr "Заявки, за якими я стежу"
+
+#. module: helpdesk_mgmt
+msgid "My Tickets"
+msgstr "Мої заявки"
+
+#. module: helpdesk_mgmt
+msgid "Name"
+msgstr "Назва"
+
+#. module: helpdesk_mgmt
+msgid "New"
+msgstr "Новий"
+
+#. module: helpdesk_mgmt
+msgid "New ticket form (portal)"
+msgstr "Форма нової заявки (портал)"
+
+#. module: helpdesk_mgmt
+#. odoo-python
+msgid "Newest"
+msgstr "Найновіші"
+
+#. module: helpdesk_mgmt
+msgid "Next Activity Calendar Event"
+msgstr "Подія календаря наступної дії"
+
+#. module: helpdesk_mgmt
+msgid "Next Activity Deadline"
+msgstr "Кінцевий термін наступної дії"
+
+#. module: helpdesk_mgmt
+msgid "Next Activity Summary"
+msgstr "Опис наступної дії"
+
+#. module: helpdesk_mgmt
+msgid "Next Activity Type"
+msgstr "Тип наступної дії"
+
+#. module: helpdesk_mgmt
+#. odoo-python
+msgid "No Subject"
+msgstr "Без теми"
+
+#. module: helpdesk_mgmt
+msgid "No tickets found."
+msgstr "Заявок не знайдено."
+
+#. module: helpdesk_mgmt
+#. odoo-python
+msgid "None"
+msgstr "Немає"
+
+#. module: helpdesk_mgmt
+msgid "Number"
+msgstr "Номер"
+
+#. module: helpdesk_mgmt
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: helpdesk_mgmt
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: helpdesk_mgmt
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: helpdesk_mgmt
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: helpdesk_mgmt
+msgid "Number of tickets"
+msgstr "Кількість заявок"
+
+#. module: helpdesk_mgmt
+msgid "Number of tickets in high priority"
+msgstr "Кількість заявок із високим пріоритетом"
+
+#. module: helpdesk_mgmt
+msgid "Number of tickets unassigned"
+msgstr "Кількість непризначених заявок"
+
+#. module: helpdesk_mgmt
+msgid "Number of tickets unattended"
+msgstr "Кількість заявок без обробки"
+
+#. module: helpdesk_mgmt
+msgid "Odoo"
+msgstr "Odoo"
+
+#. module: helpdesk_mgmt
+msgid "Open"
+msgstr "Відкрити"
+
+#. module: helpdesk_mgmt
+#. odoo-python
+msgid "Open Tickets"
+msgstr "Відкриті заявки"
+
+#. module: helpdesk_mgmt
+#. odoo-python
+msgid "Open Tickets without team"
+msgstr "Відкриті заявки без команди"
+
+#. module: helpdesk_mgmt
+msgid ""
+"Optional ID of a thread (record) to which all incoming messages will be "
+"attached, even if they did not reply to it. If set, this will disable the "
+"creation of new records completely."
+msgstr ""
+"Необов'язковий ID потоку (запису), до якого буде приєднано всі вхідні "
+"повідомлення, навіть якщо вони не є відповіддю на нього. Якщо задано, "
+"створення нових записів буде повністю вимкнено."
+
+#. module: helpdesk_mgmt
+msgid "Other"
+msgstr "Інше"
+
+#. module: helpdesk_mgmt
+msgid "Other Information"
+msgstr "Інша інформація"
+
+#. module: helpdesk_mgmt
+msgid "Parent Category"
+msgstr "Батьківська категорія"
+
+#. module: helpdesk_mgmt
+msgid "Parent Model"
+msgstr "Батьківська модель"
+
+#. module: helpdesk_mgmt
+msgid "Parent Path"
+msgstr "Батьківський шлях"
+
+#. module: helpdesk_mgmt
+msgid "Parent Record Thread ID"
+msgstr "ID потоку батьківського запису"
+
+#. module: helpdesk_mgmt
+msgid "Parent Team"
+msgstr "Батьківська команда"
+
+#. module: helpdesk_mgmt
+msgid "Parent Team name..."
+msgstr "Назва батьківської команди..."
+
+#. module: helpdesk_mgmt
+msgid ""
+"Parent model holding the alias. The model holding the alias reference is not"
+" necessarily the model given by alias_model_id (example: project "
+"(parent_model) and task (model))"
+msgstr ""
+"Батьківська модель, що містить псевдонім. Модель із посиланням на псевдонім "
+"не обов'язково збігається з моделлю alias_model_id (наприклад, проєкт "
+"(parent_model) і завдання (model))"
+
+#. module: helpdesk_mgmt
+msgid "Partner"
+msgstr "Контрагент"
+
+#. module: helpdesk_mgmt
+msgid "Partner Name"
+msgstr "Назва контрагента"
+
+#. module: helpdesk_mgmt
+msgid "Phone"
+msgstr "Телефон"
+
+#. module: helpdesk_mgmt
+msgid "Pivot Analysis"
+msgstr "Зведений аналіз"
+
+#. module: helpdesk_mgmt
+msgid ""
+"Policy to post a message on the document using the mailgateway.\n"
+"- everyone: everyone can post\n"
+"- partners: only authenticated partners\n"
+"- followers: only followers of the related document or members of following "
+"channels\n"
+msgstr ""
+"Політика публікації повідомлень у документі через поштовий шлюз.\n"
+"- усі: публікувати можуть усі\n"
+"- контрагенти: лише автентифіковані контрагенти\n"
+"- підписники: лише підписники пов'язаного документа або учасники відповідних"
+" каналів\n"
+
+#. module: helpdesk_mgmt
+msgid "Portal Access URL"
+msgstr "URL доступу до порталу"
+
+#. module: helpdesk_mgmt
+msgid "Priority"
+msgstr "Пріоритет"
+
+#. module: helpdesk_mgmt
+msgid "Priority tickets"
+msgstr "Пріоритетні заявки"
+
+#. module: helpdesk_mgmt
+msgid "Properties"
+msgstr "Властивості"
+
+#. module: helpdesk_mgmt
+msgid "Ratings"
+msgstr "Оцінки"
+
+#. module: helpdesk_mgmt
+msgid "Ready for next stage"
+msgstr "Готово до наступного етапу"
+
+#. module: helpdesk_mgmt
+msgid "Record Thread ID"
+msgstr "ID потоку запису"
+
+#. module: helpdesk_mgmt
+msgid "Rejected"
+msgstr "Відхилено"
+
+#. module: helpdesk_mgmt
+msgid "Related tickets"
+msgstr "Пов'язані заявки"
+
+#. module: helpdesk_mgmt
+msgid "Reporting"
+msgstr "Звітність"
+
+#. module: helpdesk_mgmt
+msgid "Required Category field in Helpdesk portal"
+msgstr "Обов'язкове поле «Категорія» на порталі служби підтримки"
+
+#. module: helpdesk_mgmt
+msgid "Required Team field in Helpdesk portal"
+msgstr "Обов'язкове поле «Команда» на порталі служби підтримки"
+
+#. module: helpdesk_mgmt
+msgid "Required fields"
+msgstr "Обов'язкові поля"
+
+#. module: helpdesk_mgmt
+msgid "Responsible User"
+msgstr "Відповідальний користувач"
+
+#. module: helpdesk_mgmt
+#. odoo-python
+msgid "Search in All"
+msgstr "Шукати в усіх"
+
+#. module: helpdesk_mgmt
+#. odoo-python
+msgid "Search in Number"
+msgstr "Шукати в номері"
+
+#. module: helpdesk_mgmt
+#. odoo-python
+msgid "Search in Title"
+msgstr "Шукати в заголовку"
+
+#. module: helpdesk_mgmt
+msgid "Security Token"
+msgstr "Токен безпеки"
+
+#. module: helpdesk_mgmt
+msgid "Select category in Helpdesk portal"
+msgstr "Вибирати категорію на порталі служби підтримки"
+
+#. module: helpdesk_mgmt
+msgid "Select team in Helpdesk portal"
+msgstr "Вибирати команду на порталі служби підтримки"
+
+#. module: helpdesk_mgmt
+msgid "Send a new ticket"
+msgstr "Надіслати нову заявку"
+
+#. module: helpdesk_mgmt
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: helpdesk_mgmt
+msgid "Settings"
+msgstr "Налаштування"
+
+#. module: helpdesk_mgmt
+msgid "Share"
+msgstr "Поділитися"
+
+#. module: helpdesk_mgmt
+msgid "Show In Portal"
+msgstr "Показувати на порталі"
+
+#. module: helpdesk_mgmt
+msgid "Show all records which has next action date is before today"
+msgstr "Показати всі записи, дата наступної дії яких раніше сьогоднішньої"
+
+#. module: helpdesk_mgmt
+msgid "Show in portal form"
+msgstr "Показувати у формі порталу"
+
+#. module: helpdesk_mgmt
+msgid "Software"
+msgstr "Програмне забезпечення"
+
+#. module: helpdesk_mgmt
+msgid "Specific team that uses this stage. If it is empty all teams could uses"
+msgstr ""
+"Конкретна команда, що використовує цей етап. Якщо не вказано, його можуть "
+"використовувати всі команди"
+
+#. module: helpdesk_mgmt
+#. odoo-python
+msgid "Stage"
+msgstr "Етап"
+
+#. module: helpdesk_mgmt
+msgid "Stage Name"
+msgstr "Назва етапу"
+
+#. module: helpdesk_mgmt
+msgid "Stages"
+msgstr "Етапи"
+
+#. module: helpdesk_mgmt
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: термін уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: helpdesk_mgmt
+msgid "Status time"
+msgstr "Час у статусі"
+
+#. module: helpdesk_mgmt
+msgid "Subject"
+msgstr "Тема"
+
+#. module: helpdesk_mgmt
+msgid "Submit Ticket"
+msgstr "Надіслати заявку"
+
+#. module: helpdesk_mgmt
+msgid "Tag"
+msgstr "Мітка"
+
+#. module: helpdesk_mgmt
+msgid "Tags"
+msgstr "Мітки"
+
+#. module: helpdesk_mgmt
+msgid "Target Stage"
+msgstr "Цільовий етап"
+
+#. module: helpdesk_mgmt
+msgid "Team"
+msgstr "Команда"
+
+#. module: helpdesk_mgmt
+msgid "Team Leader"
+msgstr "Керівник команди"
+
+#. module: helpdesk_mgmt
+msgid "Team Members"
+msgstr "Учасники команди"
+
+#. module: helpdesk_mgmt
+msgid "Teams"
+msgstr "Команди"
+
+#. module: helpdesk_mgmt
+msgid "Technical"
+msgstr "Технічний"
+
+#. module: helpdesk_mgmt
+msgid ""
+"The email address associated with                                this "
+"channel. New emails received will                                "
+"automatically create new tickets assigned                                to "
+"the channel."
+msgstr ""
+"Ел. адреса, пов'язана з цим каналом. Нові отримані листи автоматично "
+"створюватимуть нові заявки, призначені каналу."
+
+#. module: helpdesk_mgmt
+msgid ""
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+" email that does not reply to an existing record will cause the creation of "
+"a new record of this model (e.g. a Project Task)"
+msgstr ""
+"Модель (тип документа Odoo), якій відповідає цей псевдонім. Будь-який "
+"вхідний лист, що не є відповіддю на наявний запис, спричинить створення "
+"нового запису цієї моделі (напр., завдання проєкту)"
+
+#. module: helpdesk_mgmt
+msgid ""
+"The name of the email alias, e.g. 'jobs' if you want to catch emails for "
+"<jobs@example.odoo.com>"
+msgstr ""
+"Назва псевдоніма ел. пошти, напр. 'jobs', якщо потрібно приймати листи для "
+"<jobs@example.odoo.com>"
+
+#. module: helpdesk_mgmt
+#. odoo-javascript
+#, python-format
+msgid "The selected file (%sB) is over the maximum allowed file size (%sB)."
+msgstr "Вибраний файл (%sB) перевищує максимально дозволений розмір (%sB)."
+
+#. module: helpdesk_mgmt
+msgid "The ticket {{object.number}} has been closed."
+msgstr "Заявку {{object.number}} закрито."
+
+#. module: helpdesk_mgmt
+msgid "The ticket {{object.number}} stage has changed."
+msgstr "Етап заявки {{object.number}} змінено."
+
+#. module: helpdesk_mgmt
+msgid ""
+"This stage is folded in the kanban view when there are no records in that "
+"stage to display."
+msgstr ""
+"Цей етап згортається в Kanban-поданні, коли на ньому немає записів для "
+"відображення."
+
+#. module: helpdesk_mgmt
+msgid ""
+"This ticket is a\n"
+"                            duplicate of"
+msgstr ""
+"Ця заявка є\n"
+"                            дублікатом"
+
+#. module: helpdesk_mgmt
+msgid "Ticket"
+msgstr "Заявка"
+
+#. module: helpdesk_mgmt
+msgid "Ticket Assignment"
+msgstr "Призначення заявки"
+
+#. module: helpdesk_mgmt
+msgid "Ticket Created"
+msgstr "Заявку створено"
+
+#. module: helpdesk_mgmt
+msgid "Ticket Properties"
+msgstr "Властивості заявки"
+
+#. module: helpdesk_mgmt
+msgid "Ticket Stage Search"
+msgstr "Пошук етапу заявки"
+
+#. module: helpdesk_mgmt
+msgid "Ticket Tag Search"
+msgstr "Пошук міток заявки"
+
+#. module: helpdesk_mgmt
+msgid "Ticket Tags"
+msgstr "Мітки заявки"
+
+#. module: helpdesk_mgmt
+msgid "Ticket active count"
+msgstr "Кількість активних заявок"
+
+#. module: helpdesk_mgmt
+msgid "Ticket count"
+msgstr "Кількість заявок"
+
+#. module: helpdesk_mgmt
+msgid "Ticket created"
+msgstr "Заявку створено"
+
+#. module: helpdesk_mgmt
+msgid "Ticket number"
+msgstr "Номер заявки"
+
+#. module: helpdesk_mgmt
+msgid "Tickets"
+msgstr "Заявки"
+
+#. module: helpdesk_mgmt
+#. odoo-python
+msgid "Title"
+msgstr "Заголовок"
+
+#. module: helpdesk_mgmt
+msgid "To Do"
+msgstr "До виконання"
+
+#. module: helpdesk_mgmt
+msgid "Today Activities"
+msgstr "Сьогоднішні дії"
+
+#. module: helpdesk_mgmt
+msgid "Type of the exception activity on record."
+msgstr "Тип виняткової дії для запису."
+
+#. module: helpdesk_mgmt
+msgid "Unassigned"
+msgstr "Не призначено"
+
+#. module: helpdesk_mgmt
+msgid "Unassigned tickets"
+msgstr "Непризначені заявки"
+
+#. module: helpdesk_mgmt
+msgid "Unattended"
+msgstr "Без обробки"
+
+#. module: helpdesk_mgmt
+msgid "Unattended tickets"
+msgstr "Заявки без обробки"
+
+#. module: helpdesk_mgmt
+msgid "User"
+msgstr "Користувач"
+
+#. module: helpdesk_mgmt
+msgid "User: Personal tickets"
+msgstr "Користувач: особисті заявки"
+
+#. module: helpdesk_mgmt
+msgid "User: Team tickets"
+msgstr "Користувач: заявки команди"
+
+#. module: helpdesk_mgmt
+msgid "Users"
+msgstr "Користувачі"
+
+#. module: helpdesk_mgmt
+msgid "Very High"
+msgstr "Дуже високий"
+
+#. module: helpdesk_mgmt
+msgid "Web"
+msgstr "Веб"
+
+#. module: helpdesk_mgmt
+msgid "Website Messages"
+msgstr "Повідомлення вебсайту"
+
+#. module: helpdesk_mgmt
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
+
+#. module: helpdesk_mgmt
+msgid "When marked as duplicate, tickets will be moved to this stage"
+msgstr "Після позначення як дубліката заявки буде переміщено на цей етап"
+
+#. module: helpdesk_mgmt
+msgid "Whether to display additional fields in the portal form"
+msgstr "Чи відображати додаткові поля у формі порталу"
+
+#. module: helpdesk_mgmt
+msgid "Wifi"
+msgstr "Wi-Fi"
+
+#. module: helpdesk_mgmt
+#. odoo-python
+msgid "You need to set a valid duplicate!"
+msgstr "Потрібно вказати коректний дублікат!"
+
+#. module: helpdesk_mgmt
+msgid "alias"
+msgstr "псевдонім"
+
+#. module: helpdesk_mgmt
+msgid "e.g. mycompany.com"
+msgstr "напр. mycompany.com"
+
+#. module: helpdesk_mgmt
+msgid "helpdesk Ticket Duplicate Wizard"
+msgstr "Майстер дублювання заявки служби підтримки"
+
+#. module: helpdesk_mgmt
+msgid ""
+"{{object.company_id.name}} Ticket Assignment (Ref {{object.number or 'n/a' "
+"}})"
+msgstr ""
+"Призначення заявки {{object.company_id.name}} (посилання {{object.number or "
+"'n/a' }})"
+

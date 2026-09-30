@@ -1,0 +1,421 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * helpdesk_mgmt_sla
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 12:22+0000\n"
+"PO-Revision-Date: 2026-09-30 00:00+0000\n"
+"Last-Translator: \n"
+"Language: uk\n"
+"Language-Team: Ukrainian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#. module: helpdesk_mgmt_sla
+msgid ""
+"<i class=\"fa fa-lg fa-clock-o mx-2\" aria-label=\"SLA Deadline\" "
+"title=\"SLA Deadline\"/>"
+msgstr ""
+"<i class=\"fa fa-lg fa-clock-o mx-2\" aria-label=\"Кінцевий термін SLA\" "
+"title=\"Кінцевий термін SLA\"/>"
+
+#. module: helpdesk_mgmt_sla
+msgid "Accomplished"
+msgstr "Виконано"
+
+#. module: helpdesk_mgmt_sla
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: helpdesk_mgmt_sla
+msgid "Active"
+msgstr "Активний"
+
+#. module: helpdesk_mgmt_sla
+msgid "Activities"
+msgstr "Дії"
+
+#. module: helpdesk_mgmt_sla
+msgid "Activity Exception Decoration"
+msgstr "Оформлення виняткової дії"
+
+#. module: helpdesk_mgmt_sla
+msgid "Activity State"
+msgstr "Стан дії"
+
+#. module: helpdesk_mgmt_sla
+msgid "Activity Type Icon"
+msgstr "Іконка типу дії"
+
+#. module: helpdesk_mgmt_sla
+msgid "Applicable SLAs"
+msgstr "Застосовні SLA"
+
+#. module: helpdesk_mgmt_sla
+msgid "Apply on"
+msgstr "Застосовувати до"
+
+#. module: helpdesk_mgmt_sla
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: helpdesk_mgmt_sla
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: helpdesk_mgmt_sla
+msgid "Categories"
+msgstr "Категорії"
+
+#. module: helpdesk_mgmt_sla
+msgid "Color"
+msgstr "Колір"
+
+#. module: helpdesk_mgmt_sla
+msgid "Company"
+msgstr "Компанія"
+
+#. module: helpdesk_mgmt_sla
+msgid "Consumed time"
+msgstr "Використаний час"
+
+#. module: helpdesk_mgmt_sla
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: helpdesk_mgmt_sla
+msgid "Created by"
+msgstr "Створив"
+
+#. module: helpdesk_mgmt_sla
+msgid "Created on"
+msgstr "Дата створення"
+
+#. module: helpdesk_mgmt_sla
+msgid "Date"
+msgstr "Дата"
+
+#. module: helpdesk_mgmt_sla
+msgid "Days"
+msgstr "Дні"
+
+#. module: helpdesk_mgmt_sla
+msgid "Deadline"
+msgstr "Кінцевий термін"
+
+#. module: helpdesk_mgmt_sla
+msgid "Description"
+msgstr "Опис"
+
+#. module: helpdesk_mgmt_sla
+msgid "Description of the policy..."
+msgstr "Опис політики..."
+
+#. module: helpdesk_mgmt_sla
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: helpdesk_mgmt_sla
+msgid "Expected Stage"
+msgstr "Очікуваний етап"
+
+#. module: helpdesk_mgmt_sla
+msgid "Expired"
+msgstr "Прострочено"
+
+#. module: helpdesk_mgmt_sla
+msgid "Filter"
+msgstr "Фільтр"
+
+#. module: helpdesk_mgmt_sla
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: helpdesk_mgmt_sla
+msgid "Followers (Partners)"
+msgstr "Підписники (контрагенти)"
+
+#. module: helpdesk_mgmt_sla
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Іконка Font Awesome, напр. fa-tasks"
+
+#. module: helpdesk_mgmt_sla
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: helpdesk_mgmt_sla
+msgid "Helpdesk SLA"
+msgstr "SLA служби підтримки"
+
+#. module: helpdesk_mgmt_sla
+msgid "Helpdesk SLA Report"
+msgstr "Звіт SLA служби підтримки"
+
+#. module: helpdesk_mgmt_sla
+msgid "Helpdesk SLA Search"
+msgstr "Пошук SLA служби підтримки"
+
+#. module: helpdesk_mgmt_sla
+msgid "Helpdesk Ticket"
+msgstr "Заявка служби підтримки"
+
+#. module: helpdesk_mgmt_sla
+msgid "Helpdesk Ticket Team"
+msgstr "Команда служби підтримки"
+
+#. module: helpdesk_mgmt_sla
+msgid "Hours"
+msgstr "Години"
+
+#. module: helpdesk_mgmt_sla
+msgid "ID"
+msgstr "ID"
+
+#. module: helpdesk_mgmt_sla
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: helpdesk_mgmt_sla
+msgid "Icon to indicate an exception activity."
+msgstr "Іконка для позначення виняткової дії."
+
+#. module: helpdesk_mgmt_sla
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: helpdesk_mgmt_sla
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: helpdesk_mgmt_sla
+msgid "Ignore Stages"
+msgstr "Ігнорувати етапи"
+
+#. module: helpdesk_mgmt_sla
+msgid "In Hold"
+msgstr "На утриманні"
+
+#. module: helpdesk_mgmt_sla
+msgid "In Progress"
+msgstr "У процесі"
+
+#. module: helpdesk_mgmt_sla
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: helpdesk_mgmt_sla
+msgid "Last State Date"
+msgstr "Дата останньої зміни стану"
+
+#. module: helpdesk_mgmt_sla
+msgid "Last Updated by"
+msgstr "Востаннє оновив"
+
+#. module: helpdesk_mgmt_sla
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: helpdesk_mgmt_sla
+msgid "Leave blank for all companies."
+msgstr "Залиште порожнім для всіх компаній."
+
+#. module: helpdesk_mgmt_sla
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: helpdesk_mgmt_sla
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: helpdesk_mgmt_sla
+msgid "My Activity Deadline"
+msgstr "Кінцевий термін моєї дії"
+
+#. module: helpdesk_mgmt_sla
+msgid "Name"
+msgstr "Назва"
+
+#. module: helpdesk_mgmt_sla
+msgid "Next Activity Calendar Event"
+msgstr "Подія календаря наступної дії"
+
+#. module: helpdesk_mgmt_sla
+msgid "Next Activity Deadline"
+msgstr "Кінцевий термін наступної дії"
+
+#. module: helpdesk_mgmt_sla
+msgid "Next Activity Summary"
+msgstr "Опис наступної дії"
+
+#. module: helpdesk_mgmt_sla
+msgid "Next Activity Type"
+msgstr "Тип наступної дії"
+
+#. module: helpdesk_mgmt_sla
+msgid "Note"
+msgstr "Примітка"
+
+#. module: helpdesk_mgmt_sla
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: helpdesk_mgmt_sla
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: helpdesk_mgmt_sla
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: helpdesk_mgmt_sla
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: helpdesk_mgmt_sla
+msgid "Ongoing"
+msgstr "Триває"
+
+#. module: helpdesk_mgmt_sla
+#. odoo-python
+msgid "Operator is not valid"
+msgstr "Оператор недійсний"
+
+#. module: helpdesk_mgmt_sla
+msgid "Ratings"
+msgstr "Оцінки"
+
+#. module: helpdesk_mgmt_sla
+msgid "Reach In"
+msgstr "Досягти за"
+
+#. module: helpdesk_mgmt_sla
+msgid "Responsible User"
+msgstr "Відповідальний користувач"
+
+#. module: helpdesk_mgmt_sla
+msgid "SLA"
+msgstr "SLA"
+
+#. module: helpdesk_mgmt_sla
+msgid "SLA Expired"
+msgstr "SLA прострочено"
+
+#. module: helpdesk_mgmt_sla
+msgid "SLA Not Expired"
+msgstr "SLA не прострочено"
+
+#. module: helpdesk_mgmt_sla
+msgid "SLA Report"
+msgstr "Звіт SLA"
+
+#. module: helpdesk_mgmt_sla
+msgid "SLA deadline"
+msgstr "Кінцевий термін SLA"
+
+#. module: helpdesk_mgmt_sla
+msgid "SLA expired"
+msgstr "SLA прострочено"
+
+#. module: helpdesk_mgmt_sla
+msgid "Set SLA"
+msgstr "Встановити SLA"
+
+#. module: helpdesk_mgmt_sla
+msgid "Sla"
+msgstr "SLA"
+
+#. module: helpdesk_mgmt_sla
+msgid "Sla Fits"
+msgstr "Відповідає SLA"
+
+#. module: helpdesk_mgmt_sla
+msgid "Stage"
+msgstr "Етап"
+
+#. module: helpdesk_mgmt_sla
+msgid "State"
+msgstr "Стан"
+
+#. module: helpdesk_mgmt_sla
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: термін уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: helpdesk_mgmt_sla
+msgid "Tags"
+msgstr "Мітки"
+
+#. module: helpdesk_mgmt_sla
+msgid "Target"
+msgstr "Ціль"
+
+#. module: helpdesk_mgmt_sla
+msgid "Team"
+msgstr "Команда"
+
+#. module: helpdesk_mgmt_sla
+msgid "Team SLA"
+msgstr "SLA команди"
+
+#. module: helpdesk_mgmt_sla
+msgid "Teams"
+msgstr "Команди"
+
+#. module: helpdesk_mgmt_sla
+msgid "Ticket"
+msgstr "Заявка"
+
+#. module: helpdesk_mgmt_sla
+msgid "Ticket Sla"
+msgstr "SLA заявки"
+
+#. module: helpdesk_mgmt_sla
+msgid "Type of the exception activity on record."
+msgstr "Тип виняткової дії для запису."
+
+#. module: helpdesk_mgmt_sla
+msgid "Use SLA"
+msgstr "Використовувати SLA"
+
+#. module: helpdesk_mgmt_sla
+msgid "Website Messages"
+msgstr "Повідомлення вебсайту"
+
+#. module: helpdesk_mgmt_sla
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
+
+#. module: helpdesk_mgmt_sla
+msgid "Working Hours"
+msgstr "Робочі години"
+
+#. module: helpdesk_mgmt_sla
+msgid ""
+"days\n"
+"                                <br/>"
+msgstr ""
+"днів\n"
+"                                <br/>"
+
+#. module: helpdesk_mgmt_sla
+msgid ""
+"hours\n"
+"                                <br/>"
+msgstr ""
+"годин\n"
+"                                <br/>"
+

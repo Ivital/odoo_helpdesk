@@ -1,0 +1,89 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * helpdesk_mgmt_project
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 12:22+0000\n"
+"PO-Revision-Date: 2026-09-30 00:00+0000\n"
+"Last-Translator: \n"
+"Language: uk\n"
+"Language-Team: Ukrainian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#. module: helpdesk_mgmt_project
+msgid "Gives label to tickets on project's kanban view."
+msgstr "Задає назву заявок у Kanban-поданні проєкту."
+
+#. module: helpdesk_mgmt_project
+msgid "Helpdesk Ticket"
+msgstr "Заявка служби підтримки"
+
+#. module: helpdesk_mgmt_project
+msgid "Helpdesk Ticket Count"
+msgstr "Кількість заявок служби підтримки"
+
+#. module: helpdesk_mgmt_project
+msgid "Helpdesk Ticket Team"
+msgstr "Команда служби підтримки"
+
+#. module: helpdesk_mgmt_project
+msgid "Helpdesk Tickets"
+msgstr "Заявки служби підтримки"
+
+#. module: helpdesk_mgmt_project
+msgid "Milestone"
+msgstr "Віха"
+
+#. module: helpdesk_mgmt_project
+msgid "No tickets found. Let's create one!"
+msgstr "Заявок не знайдено. Створімо першу!"
+
+#. module: helpdesk_mgmt_project
+msgid "Number of tickets"
+msgstr "Кількість заявок"
+
+#. module: helpdesk_mgmt_project
+msgid "Open Tickets"
+msgstr "Відкриті заявки"
+
+#. module: helpdesk_mgmt_project
+msgid "Project"
+msgstr "Проєкт"
+
+#. module: helpdesk_mgmt_project
+msgid "Project Milestone"
+msgstr "Віха проєкту"
+
+#. module: helpdesk_mgmt_project
+msgid "Task"
+msgstr "Завдання"
+
+#. module: helpdesk_mgmt_project
+msgid "Ticket Count"
+msgstr "Кількість заявок"
+
+#. module: helpdesk_mgmt_project
+#. odoo-python
+msgid "Tickets"
+msgstr "Заявки"
+
+#. module: helpdesk_mgmt_project
+msgid "Use Tickets as"
+msgstr "Використовувати заявки як"
+
+#. module: helpdesk_mgmt_project
+msgid "View Helpdesk Tickets"
+msgstr "Переглянути заявки служби підтримки"
+
+#. module: helpdesk_mgmt_project
+msgid "View Tickets"
+msgstr "Переглянути заявки"
+

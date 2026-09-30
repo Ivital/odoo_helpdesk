@@ -1,0 +1,135 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * helpdesk_mgmt_fieldservice
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-30 12:22+0000\n"
+"PO-Revision-Date: 2026-09-30 00:00+0000\n"
+"Last-Translator: \n"
+"Language: uk\n"
+"Language-Team: Ukrainian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "# Tickets"
+msgstr "К-сть заявок"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Close Ticket"
+msgstr "Закрити заявку"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Closed FSM Orders"
+msgstr "Закриті замовлення FSM"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Create FSM Order"
+msgstr "Створити замовлення виїзного обслуговування"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Created by"
+msgstr "Створив"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Created on"
+msgstr "Дата створення"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Description"
+msgstr "Опис"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "FSM Close - Option to Close Ticket"
+msgstr "Закриття FSM — можливість закрити заявку"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "FSM Location"
+msgstr "Місце виїзного обслуговування"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Field Service Location"
+msgstr "Місце виїзного обслуговування"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Field Service Order"
+msgstr "Замовлення виїзного обслуговування"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Helpdesk Team"
+msgstr "Команда служби підтримки"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Helpdesk Ticket"
+msgstr "Заявка служби підтримки"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Helpdesk Tickets"
+msgstr "Заявки служби підтримки"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "ID"
+msgstr "ID"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Last Updated by"
+msgstr "Востаннє оновив"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: helpdesk_mgmt_fieldservice
+#. odoo-python
+msgid "Please complete all service orders related to this ticket to close it."
+msgstr ""
+"Щоб закрити цю заявку, завершіть усі пов'язані з нею замовлення на "
+"обслуговування."
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Resolution"
+msgstr "Рішення"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Service Orders"
+msgstr "Замовлення на обслуговування"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Stage"
+msgstr "Етап"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "There is an open Ticket, would you like to update the related ticket?"
+msgstr "Є відкрита заявка. Оновити пов'язану заявку?"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Ticket"
+msgstr "Заявка"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Ticket Resolution"
+msgstr "Рішення за заявкою"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Ticket Stage"
+msgstr "Етап заявки"
+
+#. module: helpdesk_mgmt_fieldservice
+msgid "Tickets"
+msgstr "Заявки"
+

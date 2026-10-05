@@ -63,3 +63,37 @@ msgstr "Нова назва тікета"
 #: code:addons/helpdesk_mgmt_merge/wizard/helpdesk_ticket_merge.py:0
 msgid "to"
 msgstr "до"
+
+#. module: helpdesk_mgmt_merge
+#: model_terms:ir.ui.view,arch_db:helpdesk_mgmt_merge.helpdesk_ticket_merge_view_form
+msgid ""
+"<span class=\"text-muted\">NB: This will archive the selected tickets (Except the destination ticket)\n"
+"                    </span>"
+msgstr ""
+"<span class=\"text-muted\">Примітка: це архівує вибрані звернення (крім цільового звернення)\n"
+"                    </span>"
+
+#. module: helpdesk_mgmt_merge
+#: model:ir.model.fields,field_description:helpdesk_mgmt_merge.field_helpdesk_ticket_merge__create_new_ticket
+msgid "Create a new ticket"
+msgstr "Створити новий квиток"
+
+#. module: helpdesk_mgmt_merge
+#: model:ir.model.fields,field_description:helpdesk_mgmt_merge.field_helpdesk_ticket_merge__dst_helpdesk_team_id
+msgid "Destination Helpdesk Team"
+msgstr "Команда служби підтримки призначення"
+
+#. module: helpdesk_mgmt_merge
+#: model:ir.actions.act_window,name:helpdesk_mgmt_merge.action_helpdesk_ticket_merge
+msgid "Merge Helpdesk Tickets"
+msgstr "Об’єднати заявки служби підтримки"
+
+#. module: helpdesk_mgmt_merge
+#: model:ir.model.fields,field_description:helpdesk_mgmt_merge.field_helpdesk_ticket_merge__dst_ticket_id
+msgid "Merge into an existing ticket"
+msgstr "Об’єднати з наявною заявкою"
+
+#. module: helpdesk_mgmt_merge
+#: model:ir.model.fields,field_description:helpdesk_mgmt_merge.field_helpdesk_ticket_merge__ticket_ids
+msgid "Tickets to Merge"
+msgstr "Квитки для об’єднання"

@@ -17,3 +17,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:helpdesk_mgmt_template.field_helpdesk_ticket_category__template_description
 msgid "Template Description"
 msgstr "Опис шаблону"
+
+#. module: helpdesk_mgmt_template
+#: model:ir.model,name:helpdesk_mgmt_template.model_helpdesk_ticket_category
+#: model:ir.model.fields,field_description:helpdesk_mgmt_template.field_helpdesk_ticket__helpdesk_ticket_category_ids
+msgid "Helpdesk Ticket Category"
+msgstr "Категорія заявки служби підтримки"

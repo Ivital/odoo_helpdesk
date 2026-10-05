@@ -9,6 +9,22 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: helpdesk_mgmt_fieldservice_equipment_warranty
-#: model:ir.module.module,shortdesc:base.module_helpdesk_mgmt_fieldservice_equipment_warranty model:ir.module.module,summary:base.module_helpdesk_mgmt_fieldservice_equipment_warranty
+#: model:ir.module.module,shortdesc:base.module_helpdesk_mgmt_fieldservice_equipment_warranty
+#: model:ir.module.module,summary:base.module_helpdesk_mgmt_fieldservice_equipment_warranty
 msgid "Helpdesk Ticket Equipment Warranty"
 msgstr "Гарантія обладнання в заявці служби підтримки"
+
+#. module: helpdesk_mgmt_fieldservice_equipment_warranty
+#: model:ir.model.fields,field_description:helpdesk_mgmt_fieldservice_equipment_warranty.field_helpdesk_ticket__equipment_warranty_end_date
+msgid "Equipment Warranty End Date"
+msgstr "Дата завершення гарантії обладнання"
+
+#. module: helpdesk_mgmt_fieldservice_equipment_warranty
+#: model_terms:ir.ui.view,arch_db:helpdesk_mgmt_fieldservice_equipment_warranty.helpdesk_ticket_view_service_request_form
+msgid "Equipment Warranty Period"
+msgstr "Гарантійний строк обладнання"
+
+#. module: helpdesk_mgmt_fieldservice_equipment_warranty
+#: model:ir.model.fields,field_description:helpdesk_mgmt_fieldservice_equipment_warranty.field_helpdesk_ticket__equipment_warranty_start_date
+msgid "Equipment Warranty Start Date"
+msgstr "Дата початку гарантії обладнання"

@@ -75,3 +75,18 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:helpdesk_mgmt_crm.ticket_view_form
 msgid "Opportunity(ies)"
 msgstr "Нагода(и)"
+
+#. module: helpdesk_mgmt_crm
+#: model_terms:ir.ui.view,arch_db:helpdesk_mgmt_crm.ticket_view_form
+msgid "Convert to opportunity"
+msgstr "Перетворити на нагоду"
+
+#. module: helpdesk_mgmt_crm
+#: model_terms:ir.ui.view,arch_db:helpdesk_mgmt_crm.helpdesk_ticket_create_lead_view_form
+msgid "Create opportunity"
+msgstr "Створити нагоду"
+
+#. module: helpdesk_mgmt_crm
+#: model:ir.model.fields,field_description:helpdesk_mgmt_crm.field_helpdesk_ticket__lead_count
+msgid "Opportunity Count"
+msgstr "Кількість нагод"

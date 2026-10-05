@@ -22,3 +22,8 @@ msgstr "Підлягає оплаті"
 #: model:ir.model.fields,field_description:helpdesk_mgmt_timesheet_sale.field_helpdesk_ticket__sale_order_id
 msgid "Sales Order"
 msgstr "Замовлення на продаж"
+
+#. module: helpdesk_mgmt_timesheet_sale
+#: model:ir.model.fields,field_description:helpdesk_mgmt_timesheet_sale.field_helpdesk_ticket__sale_line_id
+msgid "Sales Order Item"
+msgstr "Позиція замовлення на продаж"

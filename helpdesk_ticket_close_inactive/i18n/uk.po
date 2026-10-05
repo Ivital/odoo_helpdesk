@@ -38,3 +38,43 @@ msgstr "Закриття тікета"
 #: model:ir.model.fields,field_description:helpdesk_ticket_close_inactive.field_helpdesk_ticket_team__ticket_stage_ids
 msgid "Ticket Stage"
 msgstr "Етап заявки"
+
+#. module: helpdesk_ticket_close_inactive
+#: model:ir.actions.server,name:helpdesk_ticket_close_inactive.ir_cron_close_inactive_tickets_ir_actions_server
+msgid "Close Inactive Tickets"
+msgstr "Закрити неактивні заявки"
+
+#. module: helpdesk_ticket_close_inactive
+#: model:ir.model.fields,field_description:helpdesk_ticket_close_inactive.field_helpdesk_ticket_team__close_inactive_mail_template_id
+msgid "Closing email template"
+msgstr "Шаблон листа про закриття"
+
+#. module: helpdesk_ticket_close_inactive
+#: model:ir.model.fields,field_description:helpdesk_ticket_close_inactive.field_helpdesk_ticket_team__inactive_tickets_day_limit_closing
+msgid "Inactive Tickets Day Limit Closing"
+msgstr "Ліміт днів бездіяльної заявки до закриття"
+
+#. module: helpdesk_ticket_close_inactive
+#: model:ir.model.fields,field_description:helpdesk_ticket_close_inactive.field_helpdesk_ticket_team__inactive_tickets_day_limit_warning
+msgid "Inactive days limit before send a warning"
+msgstr "Ліміт днів бездіяльності до надсилання попередження"
+
+#. module: helpdesk_ticket_close_inactive
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_close_inactive.inherit_view_project
+msgid "Inactivity Warning Notification"
+msgstr "Сповіщення про бездіяльність"
+
+#. module: helpdesk_ticket_close_inactive
+#: model:ir.model.fields,field_description:helpdesk_ticket_close_inactive.field_helpdesk_ticket_team__warning_inactive_mail_template_id
+msgid "Inactivity warning email template"
+msgstr "Шаблон листа попередження про бездіяльність"
+
+#. module: helpdesk_ticket_close_inactive
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_close_inactive.inherit_view_project
+msgid "Ticket Category Filter"
+msgstr "Фільтр категорії заявки"
+
+#. module: helpdesk_ticket_close_inactive
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_close_inactive.inherit_view_project
+msgid "Ticket Stage Filter"
+msgstr "Фільтр етапу квитка"

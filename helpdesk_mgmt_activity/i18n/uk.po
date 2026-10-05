@@ -69,3 +69,28 @@ msgstr "Вихідний документ"
 #: model:ir.model.fields,field_description:helpdesk_mgmt_activity.field_helpdesk_ticket__record_ref
 msgid "Source Record"
 msgstr "Початковий запис"
+
+#. module: helpdesk_mgmt_activity
+#: model:ir.model.fields,field_description:helpdesk_mgmt_activity.field_helpdesk_ticket_team__activity_stage_id
+msgid "Done Activity Stage"
+msgstr "Завершений етап активності"
+
+#. module: helpdesk_mgmt_activity
+#: model_terms:ir.ui.view,arch_db:helpdesk_mgmt_activity.res_config_settings_view_form
+msgid "Helpdesk Activity"
+msgstr "Активність служби підтримки"
+
+#. module: helpdesk_mgmt_activity
+#: model_terms:ir.ui.view,arch_db:helpdesk_mgmt_activity.res_config_settings_view_form
+msgid "Models available for a Helpdesk"
+msgstr "Моделі, доступні для служби підтримки"
+
+#. module: helpdesk_mgmt_activity
+#: model:ir.model.fields,field_description:helpdesk_mgmt_activity.field_helpdesk_ticket__source_activity_type_id
+msgid "Source Activity Type"
+msgstr "Тип початкової активності"
+
+#. module: helpdesk_mgmt_activity
+#: model:ir.model.fields,field_description:helpdesk_mgmt_activity.field_helpdesk_ticket__res_model
+msgid "Source Document Model"
+msgstr "Модель вихідного документа"

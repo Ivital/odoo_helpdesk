@@ -60,3 +60,8 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:helpdesk_motive.field_helpdesk_ticket_motive__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: helpdesk_motive
+#: model:ir.actions.act_window,name:helpdesk_motive.action_helpdesk_ticket_motive_tree
+msgid "Helpdesk Ticket Motive"
+msgstr "Причина заявки служби підтримки"

@@ -18,3 +18,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:helpdesk_ticket_partner_response.view_helpdesk_team_form_inherit
 msgid "Auto Update Ticket Stage"
 msgstr "Автоматично оновлювати етап заявки"
+
+#. module: helpdesk_ticket_partner_response
+#: model:ir.model.fields,field_description:helpdesk_ticket_partner_response.field_helpdesk_ticket_team__autopupdate_dest_stage_id
+msgid "Autoupdate Destination Stage"
+msgstr "Автооновлення етапу призначення"
+
+#. module: helpdesk_ticket_partner_response
+#: model:ir.model.fields,field_description:helpdesk_ticket_partner_response.field_helpdesk_ticket_team__autopupdate_src_stage_ids
+msgid "Autoupdate Source Stages"
+msgstr "Автооновлення етапів джерела"

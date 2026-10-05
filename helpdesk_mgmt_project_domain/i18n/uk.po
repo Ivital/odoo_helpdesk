@@ -20,3 +20,16 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:helpdesk_mgmt_project_domain.view_helpdesk_team_form_project_domain
 msgid "Task Domain"
 msgstr "Домен завдання"
+
+#. module: helpdesk_mgmt_project_domain
+#: model:ir.model.fields,field_description:helpdesk_mgmt_project_domain.field_helpdesk_ticket__task_domain_ids
+msgid "Available Tasks"
+msgstr "Доступні завдання"
+
+#. module: helpdesk_mgmt_project_domain
+#: model:ir.model.fields,field_description:helpdesk_mgmt_project_domain.field_helpdesk_ticket_team__project_domain
+#: model:ir.model.fields,field_description:helpdesk_mgmt_project_domain.field_res_company__helpdesk_mgmt_project_domain
+#: model:ir.model.fields,field_description:helpdesk_mgmt_project_domain.field_res_config_settings__helpdesk_mgmt_project_domain
+#: model_terms:ir.ui.view,arch_db:helpdesk_mgmt_project_domain.view_helpdesk_team_form_project_domain
+msgid "Project Domain"
+msgstr "Домен проєкту"

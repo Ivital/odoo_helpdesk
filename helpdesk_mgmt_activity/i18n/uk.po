@@ -27,3 +27,45 @@ msgstr "Наступний етап"
 #: model:ir.model.fields,field_description:helpdesk_mgmt_activity.field_mail_activity__ticket_id
 msgid "Ticket"
 msgstr "Заявка"
+
+#. module: helpdesk_mgmt_activity
+#: model_terms:ir.ui.view,arch_db:helpdesk_mgmt_activity.ticket_view_form
+msgid "Activity Config"
+msgstr "Налаштування активності"
+
+#. module: helpdesk_mgmt_activity
+#: model:ir.model.fields,field_description:helpdesk_mgmt_activity.field_helpdesk_ticket__assigned_user_id
+msgid "Assigned User"
+msgstr "Призначений користувач"
+
+#. module: helpdesk_mgmt_activity
+#: model:ir.model.fields,field_description:helpdesk_mgmt_activity.field_res_config_settings__helpdesk_available_model_ids
+#: model_terms:ir.ui.view,arch_db:helpdesk_mgmt_activity.res_config_settings_view_form
+msgid "Available Models"
+msgstr "Доступні моделі"
+
+#. module: helpdesk_mgmt_activity
+#: model:ir.model.fields,field_description:helpdesk_mgmt_activity.field_helpdesk_ticket__is_new_stage
+msgid "Is New Stage"
+msgstr "Є новим етапом"
+
+#. module: helpdesk_mgmt_activity
+#: model_terms:ir.ui.view,arch_db:helpdesk_mgmt_activity.ticket_view_form
+msgid "Perform Action"
+msgstr "Виконати дію"
+
+#. module: helpdesk_mgmt_activity
+#: model:ir.model.fields,field_description:helpdesk_mgmt_activity.field_helpdesk_ticket__can_create_activity
+#: model:ir.model.fields,field_description:helpdesk_mgmt_activity.field_helpdesk_ticket_team__allow_set_activity
+msgid "Set Activities"
+msgstr "Задати дії"
+
+#. module: helpdesk_mgmt_activity
+#: model:ir.model.fields,field_description:helpdesk_mgmt_activity.field_helpdesk_ticket__res_id
+msgid "Source Document"
+msgstr "Вихідний документ"
+
+#. module: helpdesk_mgmt_activity
+#: model:ir.model.fields,field_description:helpdesk_mgmt_activity.field_helpdesk_ticket__record_ref
+msgid "Source Record"
+msgstr "Початковий запис"

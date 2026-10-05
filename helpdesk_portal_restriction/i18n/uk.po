@@ -18,3 +18,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:helpdesk_portal_restriction.field_helpdesk_ticket_team__helpdesk_partner_ids
 msgid "Partners"
 msgstr "Партнери"
+
+#. module: helpdesk_portal_restriction
+#: model:ir.model.fields,field_description:helpdesk_portal_restriction.field_fsm_location__helpdesk_category_ids
+#: model:ir.model.fields,field_description:helpdesk_portal_restriction.field_fsm_person__helpdesk_category_ids
+#: model:ir.model.fields,field_description:helpdesk_portal_restriction.field_res_partner__helpdesk_category_ids
+#: model:ir.model.fields,field_description:helpdesk_portal_restriction.field_res_users__helpdesk_category_ids
+msgid "Available category"
+msgstr "Доступна категорія"
+
+#. module: helpdesk_portal_restriction
+#: model:ir.model.fields,field_description:helpdesk_portal_restriction.field_fsm_location__helpdesk_team_ids
+#: model:ir.model.fields,field_description:helpdesk_portal_restriction.field_fsm_person__helpdesk_team_ids
+#: model:ir.model.fields,field_description:helpdesk_portal_restriction.field_res_partner__helpdesk_team_ids
+msgid "Available teams"
+msgstr "Доступні команди"

@@ -32,3 +32,34 @@ msgstr "Створено"
 #: model:ir.model.fields,field_description:helpdesk_mgmt_merge.field_helpdesk_ticket_merge__display_name
 msgid "Display Name"
 msgstr "Відображувана назва"
+
+#. module: helpdesk_mgmt_merge
+#: model_terms:ir.ui.view,arch_db:helpdesk_mgmt_merge.helpdesk_ticket_merge_view_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: helpdesk_mgmt_merge
+#: model:ir.model.fields,field_description:helpdesk_mgmt_merge.field_helpdesk_ticket_merge__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: helpdesk_mgmt_merge
+#: model:ir.model.fields,field_description:helpdesk_mgmt_merge.field_helpdesk_ticket_merge__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: helpdesk_mgmt_merge
+#: model_terms:ir.ui.view,arch_db:helpdesk_mgmt_merge.helpdesk_ticket_merge_view_form
+msgid "Merge Tickets"
+msgstr "Об’єднати тікети"
+
+#. module: helpdesk_mgmt_merge
+#: model:ir.model.fields,field_description:helpdesk_mgmt_merge.field_helpdesk_ticket_merge__dst_ticket_name
+msgid "New ticket name"
+msgstr "Нова назва тікета"
+
+#. module: helpdesk_mgmt_merge
+#. odoo-python
+#: code:addons/helpdesk_mgmt_merge/wizard/helpdesk_ticket_merge.py:0
+msgid "to"
+msgstr "до"

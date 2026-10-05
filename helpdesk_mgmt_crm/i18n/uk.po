@@ -42,3 +42,36 @@ msgstr "Заявка"
 #: model:ir.model.fields,field_description:helpdesk_mgmt_crm.field_helpdesk_ticket_create_lead__user_id
 msgid "User"
 msgstr "Користувач"
+
+#. module: helpdesk_mgmt_crm
+#: model_terms:ir.ui.view,arch_db:helpdesk_mgmt_crm.helpdesk_ticket_create_lead_view_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: helpdesk_mgmt_crm
+#: model:ir.actions.act_window,name:helpdesk_mgmt_crm.helpdesk_ticket_create_lead_action
+#: model_terms:ir.ui.view,arch_db:helpdesk_mgmt_crm.helpdesk_ticket_create_lead_view_form
+msgid "Create Lead"
+msgstr "Створити лід"
+
+#. module: helpdesk_mgmt_crm
+#: model:ir.model,name:helpdesk_mgmt_crm.model_helpdesk_ticket
+#: model:ir.model.fields,field_description:helpdesk_mgmt_crm.field_crm_lead__ticket_id
+msgid "Helpdesk Ticket"
+msgstr "Заявка служби підтримки"
+
+#. module: helpdesk_mgmt_crm
+#: model:ir.model.fields,field_description:helpdesk_mgmt_crm.field_helpdesk_ticket_create_lead__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: helpdesk_mgmt_crm
+#: model:ir.model.fields,field_description:helpdesk_mgmt_crm.field_helpdesk_ticket_create_lead__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: helpdesk_mgmt_crm
+#: model:ir.model.fields,field_description:helpdesk_mgmt_crm.field_helpdesk_ticket__lead_ids
+#: model_terms:ir.ui.view,arch_db:helpdesk_mgmt_crm.ticket_view_form
+msgid "Opportunity(ies)"
+msgstr "Нагода(и)"

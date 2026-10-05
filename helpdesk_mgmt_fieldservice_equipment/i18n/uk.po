@@ -18,3 +18,19 @@ msgstr "Обладнання виїзного сервісу в заявці с�
 #: model:ir.model.fields,field_description:helpdesk_mgmt_fieldservice_equipment.field_helpdesk_ticket__equipment_id
 msgid "Equipment"
 msgstr "Обладнання"
+
+#. module: helpdesk_mgmt_fieldservice_equipment
+#: model:ir.model.fields,field_description:helpdesk_mgmt_fieldservice_equipment.field_helpdesk_ticket__equipment_stage_id
+msgid "Equipment stage"
+msgstr "Етап обладнання"
+
+#. module: helpdesk_mgmt_fieldservice_equipment
+#: model:ir.model,name:helpdesk_mgmt_fieldservice_equipment.model_helpdesk_ticket
+#: model:ir.model.fields,field_description:helpdesk_mgmt_fieldservice_equipment.field_fsm_equipment__helpdesk_ticket_ids
+msgid "Helpdesk Ticket"
+msgstr "Заявка служби підтримки"
+
+#. module: helpdesk_mgmt_fieldservice_equipment
+#: model:ir.model.fields,field_description:helpdesk_mgmt_fieldservice_equipment.field_fsm_equipment__helpdesk_ticket_count
+msgid "Helpdesk Ticket Count"
+msgstr "Кількість заявок служби підтримки"

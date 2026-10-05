@@ -45,3 +45,18 @@ msgstr "Мотиви"
 #: model:ir.model.fields,field_description:helpdesk_motive.field_helpdesk_ticket_motive__name
 msgid "Name"
 msgstr "Назва"
+
+#. module: helpdesk_motive
+#: model:ir.model.fields,field_description:helpdesk_motive.field_helpdesk_ticket_motive__team_id
+msgid "Helpdesk Team"
+msgstr "Команда служби підтримки"
+
+#. module: helpdesk_motive
+#: model:ir.model.fields,field_description:helpdesk_motive.field_helpdesk_ticket_motive__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: helpdesk_motive
+#: model:ir.model.fields,field_description:helpdesk_motive.field_helpdesk_ticket_motive__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

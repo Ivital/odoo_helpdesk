@@ -37,3 +37,23 @@ msgstr "Текст рейтингу"
 #: model_terms:ir.ui.view,arch_db:helpdesk_mgmt_rating.ticket_view_form_inherit
 msgid "Ratings"
 msgstr "Рейтинги"
+
+#. module: helpdesk_mgmt_rating
+#: model:ir.model.fields,field_description:helpdesk_mgmt_rating.field_helpdesk_ticket__rating_avg
+msgid "Average Rating"
+msgstr "Середня оцінка"
+
+#. module: helpdesk_mgmt_rating
+#: model:ir.model.fields.selection,name:helpdesk_mgmt_rating.selection__helpdesk_ticket__rating_status__no_rate
+msgid "No rating"
+msgstr "Без оцінки"
+
+#. module: helpdesk_mgmt_rating
+#: model:ir.model.fields,field_description:helpdesk_mgmt_rating.field_helpdesk_ticket__rating_avg_text
+msgid "Rating Avg Text"
+msgstr "Текст середньої оцінки"
+
+#. module: helpdesk_mgmt_rating
+#: model:ir.model.fields,field_description:helpdesk_mgmt_rating.field_helpdesk_ticket__rating_count
+msgid "Rating count"
+msgstr "Кількість оцінок"

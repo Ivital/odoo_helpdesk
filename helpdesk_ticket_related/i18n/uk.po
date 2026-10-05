@@ -17,3 +17,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:helpdesk_ticket_related.view_helpdesk_ticket_form_inherit
 msgid "Open"
 msgstr "Відкрити"
+
+#. module: helpdesk_ticket_related
+#: model:ir.model.fields,field_description:helpdesk_ticket_related.field_helpdesk_ticket__related_ticket_ids
+#: model_terms:ir.ui.view,arch_db:helpdesk_ticket_related.view_helpdesk_ticket_form_inherit
+msgid "Related tickets"
+msgstr "Пов'язані заявки"

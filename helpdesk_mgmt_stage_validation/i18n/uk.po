@@ -22,3 +22,13 @@ msgstr "Поля для перевірки"
 #: model:ir.model.fields,help:helpdesk_mgmt_stage_validation.field_helpdesk_ticket_stage__validate_field_ids
 msgid "Select fields which must be set on the document in this stage"
 msgstr "Виберіть поля, які мають бути заповнені в документі на цьому етапі"
+
+#. module: helpdesk_mgmt_stage_validation
+#. odoo-python
+#: code:addons/helpdesk_mgmt_stage_validation/models/helpdesk_ticket.py:0
+msgid ""
+"Ticket %(ticket)s can't be moved to the stage %(stage)s until the following "
+"fields are set: %(fields)s."
+msgstr ""
+"Заявку %(ticket)s не можна перемістити на етап %(stage)s, доки не заповнено "
+"поля: %(fields)s."

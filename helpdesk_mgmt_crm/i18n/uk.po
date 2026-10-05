@@ -95,3 +95,9 @@ msgstr "Кількість нагод"
 #: model:ir.model,name:helpdesk_mgmt_crm.model_helpdesk_ticket_create_lead
 msgid "Helpdesk Ticket Create Lead"
 msgstr "Створити лід із заявки служби підтримки"
+
+#. module: helpdesk_mgmt_crm
+#. odoo-python
+#: code:addons/helpdesk_mgmt_crm/wizard/helpdesk_ticket_create_lead.py:0
+msgid "This ticket has been converted to the opportunity %(lead_link)s"
+msgstr "Цю заявку перетворено на можливість %(lead_link)s"

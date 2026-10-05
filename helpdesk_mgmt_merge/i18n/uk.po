@@ -102,3 +102,27 @@ msgstr "Квитки для об’єднання"
 #: model:ir.model,name:helpdesk_mgmt_merge.model_helpdesk_ticket_merge
 msgid "Helpdesk Ticket Merge"
 msgstr "Об’єднання заявок служби підтримки"
+
+#. module: helpdesk_mgmt_merge
+#. odoo-python
+#: code:addons/helpdesk_mgmt_merge/wizard/helpdesk_ticket_merge.py:0
+msgid "Description from ticket %(name)s: %(description)s"
+msgstr "Опис із заявки %(name)s: %(description)s"
+
+#. module: helpdesk_mgmt_merge
+#. odoo-python
+#: code:addons/helpdesk_mgmt_merge/wizard/helpdesk_ticket_merge.py:0
+msgid "No description"
+msgstr "Без опису"
+
+#. module: helpdesk_mgmt_merge
+#. odoo-python
+#: code:addons/helpdesk_mgmt_merge/wizard/helpdesk_ticket_merge.py:0
+msgid "This helpdesk ticket has been merged %(way)s %(tickets)s"
+msgstr "Цю заявку служби підтримки об’єднано %(way)s %(tickets)s"
+
+#. module: helpdesk_mgmt_merge
+#. odoo-python
+#: code:addons/helpdesk_mgmt_merge/wizard/helpdesk_ticket_merge.py:0
+msgid "from"
+msgstr "від"

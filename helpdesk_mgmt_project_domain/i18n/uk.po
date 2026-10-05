@@ -206,3 +206,15 @@ msgstr ""
 #: model:ir.model.fields,help:helpdesk_mgmt_project_domain.field_helpdesk_ticket__task_domain_ids
 msgid "Tasks available for selection based on domain rules"
 msgstr "Завдання, доступні для вибору на основі правил домену"
+
+#. module: helpdesk_mgmt_project_domain
+#. odoo-python
+#: code:addons/helpdesk_mgmt_project_domain/models/helpdesk_ticket_team.py:0
+msgid "Project Domain Python Code: %s"
+msgstr "Python-код домену проєкту: %s"
+
+#. module: helpdesk_mgmt_project_domain
+#. odoo-python
+#: code:addons/helpdesk_mgmt_project_domain/models/helpdesk_ticket_team.py:0
+msgid "Task Domain Python Code: %s"
+msgstr "Python-код домену завдання: %s"

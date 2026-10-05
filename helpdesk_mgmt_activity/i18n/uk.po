@@ -120,3 +120,39 @@ msgstr "Доступно для встановлення активності у
 #: model:ir.model.fields,help:helpdesk_mgmt_activity.field_helpdesk_ticket_team__activity_stage_id
 msgid "Move the ticket when the activity in source record is done"
 msgstr "Перемістити заявку, коли активність у вихідному записі завершено"
+
+#. module: helpdesk_mgmt_activity
+#. odoo-python
+#: code:addons/helpdesk_mgmt_activity/models/helpdesk_ticket.py:0
+msgid "Activity Type is not set!"
+msgstr "Тип активності не задано!"
+
+#. module: helpdesk_mgmt_activity
+#. odoo-python
+#: code:addons/helpdesk_mgmt_activity/models/helpdesk_ticket.py:0
+msgid "Activity has been created!"
+msgstr "Дію створено!"
+
+#. module: helpdesk_mgmt_activity
+#. odoo-python
+#: code:addons/helpdesk_mgmt_activity/models/helpdesk_ticket.py:0
+msgid "Assigned User is not set!"
+msgstr "Призначеного користувача не задано!"
+
+#. module: helpdesk_mgmt_activity
+#. odoo-python
+#: code:addons/helpdesk_mgmt_activity/models/helpdesk_ticket.py:0
+msgid "Date Deadline is not set!"
+msgstr "Кінцеву дату не задано!"
+
+#. module: helpdesk_mgmt_activity
+#. odoo-python
+#: code:addons/helpdesk_mgmt_activity/models/helpdesk_ticket.py:0
+msgid "Source Record is not set!"
+msgstr "Вихідний запис не задано!"
+
+#. module: helpdesk_mgmt_activity
+#. odoo-python
+#: code:addons/helpdesk_mgmt_activity/models/helpdesk_ticket.py:0
+msgid "You cannot create activity!"
+msgstr "Ви не можете створити дію!"

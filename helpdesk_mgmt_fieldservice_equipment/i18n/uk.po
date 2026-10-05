@@ -39,3 +39,9 @@ msgstr "Кількість заявок служби підтримки"
 #: model:ir.model.fields,help:helpdesk_mgmt_fieldservice_equipment.field_helpdesk_ticket__equipment_id
 msgid "Equipment that is used for the helpdesk ticket."
 msgstr "Обладнання, що використовується для заявки служби підтримки."
+
+#. module: helpdesk_mgmt_fieldservice_equipment
+#. odoo-python
+#: code:addons/helpdesk_mgmt_fieldservice_equipment/models/helpdesk_ticket.py:0
+msgid "The location of the ticket and equipment are not the same."
+msgstr "Місце заявки й обладнання не збігаються."

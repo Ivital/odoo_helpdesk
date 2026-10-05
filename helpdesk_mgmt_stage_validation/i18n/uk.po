@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:helpdesk_mgmt_stage_validation.field_helpdesk_ticket_stage__validate_field_ids
 msgid "Fields to Validate"
 msgstr "Поля для перевірки"
+
+#. module: helpdesk_mgmt_stage_validation
+#: model:ir.model.fields,help:helpdesk_mgmt_stage_validation.field_helpdesk_ticket_stage__validate_field_ids
+msgid "Select fields which must be set on the document in this stage"
+msgstr "Виберіть поля, які мають бути заповнені в документі на цьому етапі"

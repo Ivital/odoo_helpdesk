@@ -94,3 +94,29 @@ msgstr "Тип початкової активності"
 #: model:ir.model.fields,field_description:helpdesk_mgmt_activity.field_helpdesk_ticket__res_model
 msgid "Source Document Model"
 msgstr "Модель вихідного документа"
+
+#. module: helpdesk_mgmt_activity
+#: model:ir.model.fields,help:helpdesk_mgmt_activity.field_mail_activity__ticket_id
+msgid ""
+"Activity created from helpdesk ticketAfter closing this activity, ticket is "
+"moved to done stage"
+msgstr ""
+"Дія, створена із заявки служби підтримки. Після закриття цієї дії заявку "
+"буде переведено на етап «Виконано»"
+
+#. module: helpdesk_mgmt_activity
+#: model:ir.model.fields,help:helpdesk_mgmt_activity.field_res_config_settings__helpdesk_available_model_ids
+msgid "Available models for set source record in helpdesk ticket"
+msgstr ""
+"Доступні моделі для встановлення вихідного запису в заявці служби підтримки"
+
+#. module: helpdesk_mgmt_activity
+#: model:ir.model.fields,help:helpdesk_mgmt_activity.field_helpdesk_ticket__can_create_activity
+#: model:ir.model.fields,help:helpdesk_mgmt_activity.field_helpdesk_ticket_team__allow_set_activity
+msgid "Available to set activity on source record from ticket"
+msgstr "Доступно для встановлення активності у вихідному записі із заявки"
+
+#. module: helpdesk_mgmt_activity
+#: model:ir.model.fields,help:helpdesk_mgmt_activity.field_helpdesk_ticket_team__activity_stage_id
+msgid "Move the ticket when the activity in source record is done"
+msgstr "Перемістити заявку, коли активність у вихідному записі завершено"

@@ -28,3 +28,8 @@ msgstr "Автооновлення етапу призначення"
 #: model:ir.model.fields,field_description:helpdesk_ticket_partner_response.field_helpdesk_ticket_team__autopupdate_src_stage_ids
 msgid "Autoupdate Source Stages"
 msgstr "Автооновлення етапів джерела"
+
+#. module: helpdesk_ticket_partner_response
+#: model:ir.model.fields,help:helpdesk_ticket_partner_response.field_helpdesk_ticket_team__autoupdate_ticket_stage
+msgid "Update ticket stage when a new message is registered by the partner."
+msgstr "Оновити етап заявки, коли партнер реєструє нове повідомлення."

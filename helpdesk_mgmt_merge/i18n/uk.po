@@ -97,3 +97,8 @@ msgstr "Об’єднати з наявною заявкою"
 #: model:ir.model.fields,field_description:helpdesk_mgmt_merge.field_helpdesk_ticket_merge__ticket_ids
 msgid "Tickets to Merge"
 msgstr "Квитки для об’єднання"
+
+#. module: helpdesk_mgmt_merge
+#: model:ir.model,name:helpdesk_mgmt_merge.model_helpdesk_ticket_merge
+msgid "Helpdesk Ticket Merge"
+msgstr "Об’єднання заявок служби підтримки"

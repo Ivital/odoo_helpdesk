@@ -34,3 +34,8 @@ msgstr "Заявка служби підтримки"
 #: model:ir.model.fields,field_description:helpdesk_mgmt_fieldservice_equipment.field_fsm_equipment__helpdesk_ticket_count
 msgid "Helpdesk Ticket Count"
 msgstr "Кількість заявок служби підтримки"
+
+#. module: helpdesk_mgmt_fieldservice_equipment
+#: model:ir.model.fields,help:helpdesk_mgmt_fieldservice_equipment.field_helpdesk_ticket__equipment_id
+msgid "Equipment that is used for the helpdesk ticket."
+msgstr "Обладнання, що використовується для заявки служби підтримки."

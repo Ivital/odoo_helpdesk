@@ -107,3 +107,30 @@ msgstr "Наразі немає оцінених заявок."
 #: model_terms:ir.actions.act_window,help:helpdesk_mgmt_rating.helpdesk_ticket_rating_action
 msgid "There are no ratings for this ticket at the moment."
 msgstr "Наразі для цієї заявки немає оцінок."
+
+#. module: helpdesk_mgmt_rating
+#: model:mail.template,name:helpdesk_mgmt_rating.rating_ticket_email_template
+msgid "Helpdesk Ticket: Rating Request"
+msgstr "Заявка служби підтримки: запит оцінки"
+
+#. module: helpdesk_mgmt_rating
+#: model:ir.model.fields,help:helpdesk_mgmt_rating.field_helpdesk_ticket_stage__rating_mail_template_id
+msgid ""
+"If set, an email will be sent to the customer  with a rating survey when the"
+" ticket reaches this stage."
+msgstr ""
+"Якщо задано, клієнту буде надіслано лист з опитуванням оцінки, коли заявка "
+"досягне цього етапу."
+
+#. module: helpdesk_mgmt_rating
+#: model:mail.template,subject:helpdesk_mgmt_rating.rating_ticket_email_template
+msgid "Satisfaction Survey of the ticket {{object.number}} - {{object.name}}"
+msgstr ""
+"Опитування задоволеності за заявкою {{object.number}} - {{object.name}}"
+
+#. module: helpdesk_mgmt_rating
+#. odoo-python
+#: code:addons/helpdesk_mgmt_rating/models/helpdesk_ticket.py:0
+#: model:mail.message.subtype,name:helpdesk_mgmt_rating.mt_ticket_rating
+msgid "Ticket Rating"
+msgstr "Оцінка заявки"

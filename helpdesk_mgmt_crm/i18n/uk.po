@@ -90,3 +90,8 @@ msgstr "Створити нагоду"
 #: model:ir.model.fields,field_description:helpdesk_mgmt_crm.field_helpdesk_ticket__lead_count
 msgid "Opportunity Count"
 msgstr "Кількість нагод"
+
+#. module: helpdesk_mgmt_crm
+#: model:ir.model,name:helpdesk_mgmt_crm.model_helpdesk_ticket_create_lead
+msgid "Helpdesk Ticket Create Lead"
+msgstr "Створити лід із заявки служби підтримки"

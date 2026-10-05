@@ -120,3 +120,89 @@ msgstr ""
 #: model:ir.model.fields,field_description:helpdesk_mgmt_project_domain.field_helpdesk_ticket_team__task_domain_python
 msgid "Task Domain Python Code"
 msgstr "Python-код домену завдання"
+
+#. module: helpdesk_mgmt_project_domain
+#: model:ir.model.fields,help:helpdesk_mgmt_project_domain.field_helpdesk_ticket_team__project_domain
+msgid ""
+"Domain to filter projects available for selection in tickets. This domain "
+"will be automatically combined with company domain using AND. Example: "
+"[('active', '=', True), ('partner_id', '!=', False)]"
+msgstr ""
+"Домен для фільтрації проєктів, доступних для вибору в заявках. Цей домен "
+"буде автоматично об'єднано з доменом компанії за допомогою AND. Приклад: "
+"[('active', '=', True), ('partner_id', '!=', False)]"
+
+#. module: helpdesk_mgmt_project_domain
+#: model:ir.model.fields,help:helpdesk_mgmt_project_domain.field_helpdesk_ticket_team__task_domain
+msgid ""
+"Domain to filter tasks available for selection in tickets. This domain will "
+"be automatically combined with company domain using AND. Example: "
+"[('active', '=', True), ('project_id', '!=', False)]"
+msgstr ""
+"Домен для фільтрації завдань, доступних для вибору в заявках. Цей домен буде"
+" автоматично об'єднано з доменом компанії за допомогою AND. Приклад: "
+"[('active', '=', True), ('project_id', '!=', False)]"
+
+#. module: helpdesk_mgmt_project_domain
+#: model:ir.model.fields,help:helpdesk_mgmt_project_domain.field_res_company__helpdesk_mgmt_project_domain
+#: model:ir.model.fields,help:helpdesk_mgmt_project_domain.field_res_config_settings__helpdesk_mgmt_project_domain
+msgid ""
+"Global domain to filter projects available for selection in tickets. This "
+"will be applied if no specific domain is set in the team. Example: "
+"[('active', '=', True), ('partner_id', '!=', False)]"
+msgstr ""
+"Глобальний домен для фільтрації проєктів, доступних для вибору в заявках. "
+"Застосовується, якщо в команді не задано окремий домен. Приклад: [('active',"
+" '=', True), ('partner_id', '!=', False)]"
+
+#. module: helpdesk_mgmt_project_domain
+#: model:ir.model.fields,help:helpdesk_mgmt_project_domain.field_res_company__helpdesk_mgmt_task_domain
+#: model:ir.model.fields,help:helpdesk_mgmt_project_domain.field_res_config_settings__helpdesk_mgmt_task_domain
+msgid ""
+"Global domain to filter tasks available for selection in tickets. This will "
+"be applied if no specific domain is set in the team. Example: [('active', "
+"'=', True), ('project_id', '!=', False)]"
+msgstr ""
+"Глобальний домен для фільтрації завдань, доступних для вибору в заявках. "
+"Застосовується, якщо в команді не задано окремий домен. Приклад: [('active',"
+" '=', True), ('project_id', '!=', False)]"
+
+#. module: helpdesk_mgmt_project_domain
+#: model:ir.model.fields,help:helpdesk_mgmt_project_domain.field_helpdesk_ticket__project_domain_ids
+msgid "Projects available for selection based on domain rules"
+msgstr "Проєкти, доступні для вибору відповідно до правил домену"
+
+#. module: helpdesk_mgmt_project_domain
+#: model:ir.model.fields,help:helpdesk_mgmt_project_domain.field_helpdesk_ticket_team__project_domain_python
+msgid ""
+"Python code to generate dynamic project domain based on ticket data. This "
+"domain will be automatically combined with company and team domains using "
+"AND. The code can either assign to 'domain' variable OR return a list "
+"directly. Available variables: ticket, env, user, company, AND, OR, "
+"normalize."
+msgstr ""
+"Код Python для створення динамічного домену проєктів на основі даних заявки."
+" Цей домен буде автоматично об'єднано з доменами компанії та команди за "
+"допомогою AND. Код може або присвоїти значення змінній 'domain', АБО "
+"безпосередньо повернути список. Доступні змінні: ticket, env, user, company,"
+" AND, OR, normalize."
+
+#. module: helpdesk_mgmt_project_domain
+#: model:ir.model.fields,help:helpdesk_mgmt_project_domain.field_helpdesk_ticket_team__task_domain_python
+msgid ""
+"Python code to generate dynamic task domain based on ticket data. This "
+"domain will be automatically combined with company and team domains using "
+"AND. The code can either assign to 'domain' variable OR return a list "
+"directly. Available variables: ticket, env, user, company, AND, OR, "
+"normalize."
+msgstr ""
+"Код Python для створення динамічного домену завдань на основі даних заявки. "
+"Цей домен буде автоматично об'єднано з доменами компанії та команди за "
+"допомогою AND. Код може або присвоїти значення змінній 'domain', АБО "
+"безпосередньо повернути список. Доступні змінні: ticket, env, user, company,"
+" AND, OR, normalize."
+
+#. module: helpdesk_mgmt_project_domain
+#: model:ir.model.fields,help:helpdesk_mgmt_project_domain.field_helpdesk_ticket__task_domain_ids
+msgid "Tasks available for selection based on domain rules"
+msgstr "Завдання, доступні для вибору на основі правил домену"

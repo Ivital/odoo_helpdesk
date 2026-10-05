@@ -96,3 +96,28 @@ msgstr "Обов'язкове поле типу на порталі служби
 #: model:ir.model.fields,field_description:helpdesk_type.field_res_config_settings__helpdesk_mgmt_portal_type
 msgid "Show type in portal form"
 msgstr "Показувати тип у формі порталу"
+
+#. module: helpdesk_type
+#: model:ir.model.fields,help:helpdesk_type.field_helpdesk_ticket_type__show_in_portal
+msgid "Allow to select type when creating a new ticket in the portal."
+msgstr "Дозволити вибір типу під час створення нової заявки на порталі."
+
+#. module: helpdesk_type
+#: model:ir.model.fields,help:helpdesk_type.field_helpdesk_ticket_type__team_ids
+msgid "Helpdesk teams allowed to use this type."
+msgstr "Команди служби підтримки, яким дозволено використовувати цей тип."
+
+#. module: helpdesk_type
+#: model:ir.model.fields,help:helpdesk_type.field_res_company__helpdesk_mgmt_portal_type
+#: model:ir.model.fields,help:helpdesk_type.field_res_config_settings__helpdesk_mgmt_portal_type
+msgid "Select type in Helpdesk portal"
+msgstr "Виберіть тип на порталі служби підтримки"
+
+#. module: helpdesk_type
+#: model:ir.model.fields,help:helpdesk_type.field_helpdesk_ticket_team__type_ids
+msgid ""
+"Ticket Types the team will use. This team's tickets will only be able to use"
+" those types."
+msgstr ""
+"Типи заявок, які використовуватиме команда. Заявки цієї команди зможуть "
+"використовувати лише ці типи."
